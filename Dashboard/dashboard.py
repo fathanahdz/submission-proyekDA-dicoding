@@ -44,7 +44,7 @@ def create_rfm(df):
 
 
 # Dataset
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/fathanahdz/submission-proyekDA-dicoding/master/Dashboard/all_data.csv")
 
 all_df.sort_values(by="dateday", inplace=True)
 all_df.reset_index(inplace=True)
@@ -57,7 +57,7 @@ with st.sidebar:
     st.markdown("""Submission: Proyek Analisis Data - Dicoding""")
     
     # Menambahkan logo
-    st.image("bikelogo.jpeg")  #Image by freepik
+    st.image("https://github.com/fathanahdz/submission-proyekDA-dicoding/blob/master/Dashboard/bikelogo.jpeg?raw=true")  #Image by freepik
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
