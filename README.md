@@ -29,7 +29,7 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ## Run streamlit app (local)
 1. Clone this repository
    ```
-   [https://github.com/fathanahdz/submission-proyekDA-dicoding.git](https://github.com/fathanahdz/submission-proyekDA-dicoding.git)
+   https://github.com/fathanahdz/submission-proyekDA-dicoding.git
    ```
 2. Direct the path to the dashboard directory
    ```
